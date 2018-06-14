@@ -1,3 +1,3 @@
-/home/student/workspace/opencvFunctions/build/CMakeFiles/edit_cache.dir
-/home/student/workspace/opencvFunctions/build/CMakeFiles/rebuild_cache.dir
-/home/student/workspace/opencvFunctions/build/CMakeFiles/opencvFunctions.dir
+/home/student/workspace/OpenCv_functions/build/CMakeFiles/edit_cache.dir
+/home/student/workspace/OpenCv_functions/build/CMakeFiles/rebuild_cache.dir
+/home/student/workspace/OpenCv_functions/build/CMakeFiles/opencvFunctions.dir

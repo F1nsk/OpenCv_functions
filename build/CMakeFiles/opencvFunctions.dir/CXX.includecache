@@ -6,31 +6,31 @@
 
 #IncludeRegexTransform: 
 
-/home/student/workspace/opencvFunctions/src/cvFunctions.cpp
+/home/student/workspace/OpenCv_functions/src/cvFunctions.cpp
 cvFunctions.h
-/home/student/workspace/opencvFunctions/src/cvFunctions.h
+/home/student/workspace/OpenCv_functions/src/cvFunctions.h
 
-/home/student/workspace/opencvFunctions/src/cvFunctions.h
+/home/student/workspace/OpenCv_functions/src/cvFunctions.h
 opencv2/opencv.hpp
 -
 opencv2/imgproc/imgproc.hpp
-/home/student/workspace/opencvFunctions/src/opencv2/imgproc/imgproc.hpp
+/home/student/workspace/OpenCv_functions/src/opencv2/imgproc/imgproc.hpp
 opencv2/highgui/highgui.hpp
-/home/student/workspace/opencvFunctions/src/opencv2/highgui/highgui.hpp
+/home/student/workspace/OpenCv_functions/src/opencv2/highgui/highgui.hpp
 opencv2/core/utility.hpp
-/home/student/workspace/opencvFunctions/src/opencv2/core/utility.hpp
+/home/student/workspace/OpenCv_functions/src/opencv2/core/utility.hpp
 opencv2/imgcodecs.hpp
-/home/student/workspace/opencvFunctions/src/opencv2/imgcodecs.hpp
+/home/student/workspace/OpenCv_functions/src/opencv2/imgcodecs.hpp
 math.h
 -
 iostream
 -
 stdio.h
-/home/student/workspace/opencvFunctions/src/stdio.h
+/home/student/workspace/OpenCv_functions/src/stdio.h
 
-/home/student/workspace/opencvFunctions/src/main.cpp
+/home/student/workspace/OpenCv_functions/src/main.cpp
 cvFunctions.h
-/home/student/workspace/opencvFunctions/src/cvFunctions.h
+/home/student/workspace/OpenCv_functions/src/cvFunctions.h
 
 /opt/ros/kinetic/include/opencv-3.2.0-dev/opencv/cxcore.h
 opencv2/core/core_c.h

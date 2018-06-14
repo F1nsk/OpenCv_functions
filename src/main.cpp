@@ -10,7 +10,7 @@ int main()
 
     c.test();
 
-    c.edgeDetection(c.importImg("/home/student/Desktop/workspace/opencvFunctions/MagrittePipe.jpg" ));
+    c.edgeDetection(c.importImg("/home/student/Desktop/workspace/OpenCv_functions/test_pictures/MagrittePipe.jpg" ));
     // Show the image
 
    // cv::imshow(c.importImg("/home/student/Desktop/workspace/opencvFunctions/MagrittePipe.jpg" ));

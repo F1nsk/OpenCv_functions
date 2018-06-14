@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/workspace/opencvFunctions
+CMAKE_SOURCE_DIR = /home/student/workspace/OpenCv_functions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/workspace/opencvFunctions/build
+CMAKE_BINARY_DIR = /home/student/workspace/OpenCv_functions/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/opencvFunctions.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/opencvFunctions.dir/flags.make
 
 CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o: CMakeFiles/opencvFunctions.dir/flags.make
 CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o: ../src/cvFunctions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/workspace/opencvFunctions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o -c /home/student/workspace/opencvFunctions/src/cvFunctions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/workspace/OpenCv_functions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o -c /home/student/workspace/OpenCv_functions/src/cvFunctions.cpp
 
 CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/workspace/opencvFunctions/src/cvFunctions.cpp > CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/workspace/OpenCv_functions/src/cvFunctions.cpp > CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.i
 
 CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/workspace/opencvFunctions/src/cvFunctions.cpp -o CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/workspace/OpenCv_functions/src/cvFunctions.cpp -o CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.s
 
 CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o.provides.build: CMakeFiles/
 
 CMakeFiles/opencvFunctions.dir/src/main.cpp.o: CMakeFiles/opencvFunctions.dir/flags.make
 CMakeFiles/opencvFunctions.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/workspace/opencvFunctions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opencvFunctions.dir/src/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencvFunctions.dir/src/main.cpp.o -c /home/student/workspace/opencvFunctions/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/workspace/OpenCv_functions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/opencvFunctions.dir/src/main.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencvFunctions.dir/src/main.cpp.o -c /home/student/workspace/OpenCv_functions/src/main.cpp
 
 CMakeFiles/opencvFunctions.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencvFunctions.dir/src/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/workspace/opencvFunctions/src/main.cpp > CMakeFiles/opencvFunctions.dir/src/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/workspace/OpenCv_functions/src/main.cpp > CMakeFiles/opencvFunctions.dir/src/main.cpp.i
 
 CMakeFiles/opencvFunctions.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencvFunctions.dir/src/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/workspace/opencvFunctions/src/main.cpp -o CMakeFiles/opencvFunctions.dir/src/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/workspace/OpenCv_functions/src/main.cpp -o CMakeFiles/opencvFunctions.dir/src/main.cpp.s
 
 CMakeFiles/opencvFunctions.dir/src/main.cpp.o.requires:
 
@@ -159,7 +159,7 @@ opencvFunctions: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
 opencvFunctions: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
 opencvFunctions: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
 opencvFunctions: CMakeFiles/opencvFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/workspace/opencvFunctions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable opencvFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/workspace/OpenCv_functions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable opencvFunctions"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencvFunctions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -177,6 +177,6 @@ CMakeFiles/opencvFunctions.dir/clean:
 .PHONY : CMakeFiles/opencvFunctions.dir/clean
 
 CMakeFiles/opencvFunctions.dir/depend:
-	cd /home/student/workspace/opencvFunctions/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/workspace/opencvFunctions /home/student/workspace/opencvFunctions /home/student/workspace/opencvFunctions/build /home/student/workspace/opencvFunctions/build /home/student/workspace/opencvFunctions/build/CMakeFiles/opencvFunctions.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/student/workspace/OpenCv_functions/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/student/workspace/OpenCv_functions /home/student/workspace/OpenCv_functions /home/student/workspace/OpenCv_functions/build /home/student/workspace/OpenCv_functions/build /home/student/workspace/OpenCv_functions/build/CMakeFiles/opencvFunctions.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/opencvFunctions.dir/depend
 

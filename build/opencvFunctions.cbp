@@ -8,38 +8,38 @@
       <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\;" />
       <Build>
       <Target title="all">
-         <Option working_dir="/home/student/workspace/opencvFunctions/build" />
+         <Option working_dir="/home/student/workspace/OpenCv_functions/build" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="edit_cache">
-         <Option working_dir="/home/student/workspace/opencvFunctions/build" />
+         <Option working_dir="/home/student/workspace/OpenCv_functions/build" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 edit_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 edit_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="rebuild_cache">
-         <Option working_dir="/home/student/workspace/opencvFunctions/build" />
+         <Option working_dir="/home/student/workspace/OpenCv_functions/build" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="opencvFunctions">
-         <Option output="/home/student/workspace/opencvFunctions/build/opencvFunctions" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/student/workspace/opencvFunctions/build" />
+         <Option output="/home/student/workspace/OpenCv_functions/build/opencvFunctions" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/student/workspace/OpenCv_functions/build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -56,15 +56,15 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 opencvFunctions" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 opencvFunctions" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="opencvFunctions/fast">
-         <Option output="/home/student/workspace/opencvFunctions/build/opencvFunctions" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/student/workspace/opencvFunctions/build" />
+         <Option output="/home/student/workspace/OpenCv_functions/build/opencvFunctions" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/student/workspace/OpenCv_functions/build" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -81,35 +81,35 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 opencvFunctions/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/opencvFunctions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 opencvFunctions/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/student/workspace/OpenCv_functions/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/student/workspace/opencvFunctions/src/cvFunctions.cpp">
+      <Unit filename="/home/student/workspace/OpenCv_functions/src/cvFunctions.cpp">
          <Option target="opencvFunctions"/>
       </Unit>
-      <Unit filename="/home/student/workspace/opencvFunctions/src/cvFunctions.h">
+      <Unit filename="/home/student/workspace/OpenCv_functions/src/cvFunctions.h">
          <Option target="opencvFunctions"/>
       </Unit>
-      <Unit filename="/home/student/workspace/opencvFunctions/src/main.cpp">
+      <Unit filename="/home/student/workspace/OpenCv_functions/src/main.cpp">
          <Option target="opencvFunctions"/>
       </Unit>
-      <Unit filename="/home/student/workspace/opencvFunctions/CMakeLists.txt">
+      <Unit filename="/home/student/workspace/OpenCv_functions/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
-      <Unit filename="/home/student/workspace/opencvFunctions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVConfig-version.cmake">
+      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\" />
       </Unit>
-      <Unit filename="/home/student/workspace/opencvFunctions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVConfig.cmake">
+      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\" />
       </Unit>
-      <Unit filename="/home/student/workspace/opencvFunctions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVModules.cmake">
+      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVModules.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\" />
       </Unit>
-      <Unit filename="/home/student/workspace/opencvFunctions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVModules-none.cmake">
+      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVModules-none.cmake">
           <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\" />
       </Unit>
    </Project>

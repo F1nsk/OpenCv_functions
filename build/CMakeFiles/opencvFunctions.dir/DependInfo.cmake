@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/student/workspace/opencvFunctions/src/cvFunctions.cpp" "/home/student/workspace/opencvFunctions/build/CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o"
-  "/home/student/workspace/opencvFunctions/src/main.cpp" "/home/student/workspace/opencvFunctions/build/CMakeFiles/opencvFunctions.dir/src/main.cpp.o"
+  "/home/student/workspace/OpenCv_functions/src/cvFunctions.cpp" "/home/student/workspace/OpenCv_functions/build/CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o"
+  "/home/student/workspace/OpenCv_functions/src/main.cpp" "/home/student/workspace/OpenCv_functions/build/CMakeFiles/opencvFunctions.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

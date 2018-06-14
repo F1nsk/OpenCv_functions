@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/workspace/opencvFunctions
+CMAKE_SOURCE_DIR = /home/student/workspace/OpenCv_functions
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/workspace/opencvFunctions/build
+CMAKE_BINARY_DIR = /home/student/workspace/OpenCv_functions/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/opencvFunctions.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/student/workspace/opencvFunctions/build
 CMakeFiles/opencvFunctions.dir/all:
 	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/depend
 	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/workspace/opencvFunctions/build/CMakeFiles --progress-num=1,2,3 "Built target opencvFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/workspace/OpenCv_functions/build/CMakeFiles --progress-num=1,2,3 "Built target opencvFunctions"
 .PHONY : CMakeFiles/opencvFunctions.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/opencvFunctions.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/opencvFunctions.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/workspace/opencvFunctions/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/workspace/OpenCv_functions/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/opencvFunctions.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/workspace/opencvFunctions/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/workspace/OpenCv_functions/build/CMakeFiles 0
 .PHONY : CMakeFiles/opencvFunctions.dir/rule
 
 # Convenience name for target.
