@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.11)
 project(opencvFunctions)
 find_package(OpenCV 3 REQUIRED)
-add_executable(opencvFunctions src/cvFunctions.cpp src/cvFunctions.h src/main.cpp)
+add_executable(opencvFunctions src/cvFunctions.cpp src/cvFunctions.h src/main.cpp src/hsvSeg.cpp src/hsvSeg.h)
 target_link_libraries(opencvFunctions ${OpenCV_LIBS})

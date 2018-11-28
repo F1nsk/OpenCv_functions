@@ -5,7 +5,7 @@
       <Option title="opencvFunctions" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\opt\;CMake Files\..\..\..\..\opt\ros\;CMake Files\..\..\..\..\opt\ros\kinetic\;CMake Files\..\..\..\..\opt\ros\kinetic\share\;CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/student/workspace/OpenCv_functions/build" />
@@ -44,8 +44,8 @@
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev" />
-            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
             <Add directory="/usr/include" />
             <Add directory="/usr/include/c++/5" />
             <Add directory="/usr/include/c++/5/backward" />
@@ -69,8 +69,8 @@
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev" />
-            <Add directory="/opt/ros/kinetic/include/opencv-3.2.0-dev/opencv" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev" />
+            <Add directory="/opt/ros/kinetic/include/opencv-3.3.1-dev/opencv" />
             <Add directory="/usr/include" />
             <Add directory="/usr/include/c++/5" />
             <Add directory="/usr/include/c++/5/backward" />
@@ -94,23 +94,29 @@
       <Unit filename="/home/student/workspace/OpenCv_functions/src/cvFunctions.h">
          <Option target="opencvFunctions"/>
       </Unit>
+      <Unit filename="/home/student/workspace/OpenCv_functions/src/hsvSeg.cpp">
+         <Option target="opencvFunctions"/>
+      </Unit>
+      <Unit filename="/home/student/workspace/OpenCv_functions/src/hsvSeg.h">
+         <Option target="opencvFunctions"/>
+      </Unit>
       <Unit filename="/home/student/workspace/OpenCv_functions/src/main.cpp">
          <Option target="opencvFunctions"/>
       </Unit>
       <Unit filename="/home/student/workspace/OpenCv_functions/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
-      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVConfig-version.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\" />
+      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\" />
       </Unit>
-      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVConfig.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\" />
+      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\" />
       </Unit>
-      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVModules.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\" />
+      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\" />
       </Unit>
-      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.2.0-dev/OpenCVModules-none.cmake">
-          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.2.0-dev\" />
+      <Unit filename="/home/student/workspace/OpenCv_functions/../../../../opt/ros/kinetic/share/OpenCV-3.3.1-dev/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\opt\ros\kinetic\share\OpenCV-3.3.1-dev\" />
       </Unit>
    </Project>
 </CodeBlocks_project_file>

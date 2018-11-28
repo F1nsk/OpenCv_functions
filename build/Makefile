@@ -150,6 +150,33 @@ src/cvFunctions.cpp.s:
 	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.s
 .PHONY : src/cvFunctions.cpp.s
 
+src/hsvSeg.o: src/hsvSeg.cpp.o
+
+.PHONY : src/hsvSeg.o
+
+# target to build an object file
+src/hsvSeg.cpp.o:
+	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o
+.PHONY : src/hsvSeg.cpp.o
+
+src/hsvSeg.i: src/hsvSeg.cpp.i
+
+.PHONY : src/hsvSeg.i
+
+# target to preprocess a source file
+src/hsvSeg.cpp.i:
+	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.i
+.PHONY : src/hsvSeg.cpp.i
+
+src/hsvSeg.s: src/hsvSeg.cpp.s
+
+.PHONY : src/hsvSeg.s
+
+# target to generate assembly for a file
+src/hsvSeg.cpp.s:
+	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.s
+.PHONY : src/hsvSeg.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -189,6 +216,9 @@ help:
 	@echo "... src/cvFunctions.o"
 	@echo "... src/cvFunctions.i"
 	@echo "... src/cvFunctions.s"
+	@echo "... src/hsvSeg.o"
+	@echo "... src/hsvSeg.i"
+	@echo "... src/hsvSeg.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

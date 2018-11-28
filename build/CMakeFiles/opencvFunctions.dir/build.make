@@ -105,61 +105,90 @@ CMakeFiles/opencvFunctions.dir/src/main.cpp.o.provides: CMakeFiles/opencvFunctio
 CMakeFiles/opencvFunctions.dir/src/main.cpp.o.provides.build: CMakeFiles/opencvFunctions.dir/src/main.cpp.o
 
 
+CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o: CMakeFiles/opencvFunctions.dir/flags.make
+CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o: ../src/hsvSeg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/student/workspace/OpenCv_functions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o -c /home/student/workspace/OpenCv_functions/src/hsvSeg.cpp
+
+CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/student/workspace/OpenCv_functions/src/hsvSeg.cpp > CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.i
+
+CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/student/workspace/OpenCv_functions/src/hsvSeg.cpp -o CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.s
+
+CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o.requires:
+
+.PHONY : CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o.requires
+
+CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o.provides: CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o.requires
+	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o.provides.build
+.PHONY : CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o.provides
+
+CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o.provides.build: CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o
+
+
 # Object files for target opencvFunctions
 opencvFunctions_OBJECTS = \
 "CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o" \
-"CMakeFiles/opencvFunctions.dir/src/main.cpp.o"
+"CMakeFiles/opencvFunctions.dir/src/main.cpp.o" \
+"CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o"
 
 # External object files for target opencvFunctions
 opencvFunctions_EXTERNAL_OBJECTS =
 
 opencvFunctions: CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o
 opencvFunctions: CMakeFiles/opencvFunctions.dir/src/main.cpp.o
+opencvFunctions: CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o
 opencvFunctions: CMakeFiles/opencvFunctions.dir/build.make
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_stitching3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_superres3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_videostab3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_aruco3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_bgsegm3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_bioinspired3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_ccalib3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_cvv3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_datasets3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_dpm3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_face3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_fuzzy3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_hdf3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_line_descriptor3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_optflow3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_plot3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_reg3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_saliency3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_stereo3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_structured_light3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_surface_matching3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_text3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_xfeatures2d3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_ximgproc3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_xobjdetect3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_xphoto3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_shape3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_video3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_viz3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_phase_unwrapping3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_rgbd3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_calib3d3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_features2d3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_flann3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_objdetect3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_ml3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_highgui3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_photo3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_videoio3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_imgcodecs3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_imgproc3.so.3.2.0
-opencvFunctions: /opt/ros/kinetic/lib/libopencv_core3.so.3.2.0
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stitching3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_superres3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videostab3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_aruco3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bgsegm3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_bioinspired3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ccalib3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_cvv3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dpm3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_face3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_fuzzy3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_hdf3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_img_hash3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_line_descriptor3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_optflow3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_reg3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_rgbd3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_saliency3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_stereo3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_structured_light3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_surface_matching3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_tracking3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xfeatures2d3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ximgproc3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xobjdetect3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_xphoto3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_shape3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_photo3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_datasets3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_plot3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_text3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_dnn3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_ml3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_video3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_calib3d3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_features2d3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_highgui3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_videoio3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_viz3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_phase_unwrapping3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_flann3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgcodecs3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_objdetect3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_imgproc3.so.3.3.1
+opencvFunctions: /opt/ros/kinetic/lib/x86_64-linux-gnu/libopencv_core3.so.3.3.1
 opencvFunctions: CMakeFiles/opencvFunctions.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/workspace/OpenCv_functions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable opencvFunctions"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/student/workspace/OpenCv_functions/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable opencvFunctions"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/opencvFunctions.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +198,7 @@ CMakeFiles/opencvFunctions.dir/build: opencvFunctions
 
 CMakeFiles/opencvFunctions.dir/requires: CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o.requires
 CMakeFiles/opencvFunctions.dir/requires: CMakeFiles/opencvFunctions.dir/src/main.cpp.o.requires
+CMakeFiles/opencvFunctions.dir/requires: CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o.requires
 
 .PHONY : CMakeFiles/opencvFunctions.dir/requires
 
