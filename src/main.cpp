@@ -1,4 +1,6 @@
 #include "cvFunctions.h"
+using namespace cv;
+using namespace std;
 
 
 
@@ -6,17 +8,24 @@ int main()
 
 {
 
-    cvFuntions c;
+       cvFunctions c;
+       std::string path = "/home/student/workspace/OpenCv_functions/test_pictures/img2.png"; //type path to image
+       //std::string path = "/home/student/workspace/OpenCv_functions/test_pictures/img3.jpg"; //type path to image
+       //cv::namedWindow("src", WINDOW_NORMAL);
+       //cv::imshow("src" , c.importImg(path));
+       //cv::resizeWindow("src", 600, 600);
+       c.notWater(c.importImg(path));
 
-    c.test();
-
-    c.edgeDetection(c.importImg("/home/student/Desktop/workspace/OpenCv_functions/test_pictures/MagrittePipe.jpg" ));
-    // Show the image
-
-   // cv::imshow(c.importImg("/home/student/Desktop/workspace/opencvFunctions/MagrittePipe.jpg" ));
 
 
-    cv::waitKey();
+        waitKey();
+        return 0;
 
-    return 0;
+
+
+
+
+
+
+
 }
