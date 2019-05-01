@@ -41,62 +41,62 @@ void cvFunctions::edgeDetection(cv::Mat img)
 
 
 
-void cvFunctions::detectKey( cv::Mat img1, cv::Mat img2 )
-{
-    temp1 = img1;
-    cv::Mat temp1Gray1;
-    cv::Mat temp2Gray2;
-    temp2 = img2;
+//void cvFunctions::detectKey( cv::Mat img1, cv::Mat img2 )
+//{
+//    temp1 = img1;
+//    cv::Mat temp1Gray1;
+//    cv::Mat temp2Gray2;
+//    temp2 = img2;
 
-    cv::cvtColor(temp1, temp1Gray1, COLOR_BGR2GRAY);
-    cv::cvtColor(temp2, temp2Gray2, COLOR_BGR2GRAY);
-
-
-    cv::waitKey();
+//    cv::cvtColor(temp1, temp1Gray1, COLOR_BGR2GRAY);
+//    cv::cvtColor(temp2, temp2Gray2, COLOR_BGR2GRAY);
 
 
-    cv::Ptr<cv::xfeatures2d::SURF> detector = cv::xfeatures2d::SURF::create(minHessian);
-    detector->detectAndCompute(temp1Gray1, noArray(), keypoints1, descriptors1);
-    detector->detectAndCompute(temp2Gray2, noArray(), keypoints2, descriptors2);
+//    cv::waitKey();
 
-    matchKey();
-    showMatches();
 
-};
+//    cv::Ptr<cv::xfeatures2d::SURF> detector = cv::xfeatures2d::SURF::create(minHessian);
+//    detector->detectAndCompute(temp1Gray1, noArray(), keypoints1, descriptors1);
+//    detector->detectAndCompute(temp2Gray2, noArray(), keypoints2, descriptors2);
 
-void cvFunctions::matchKey()
-{
+//    matchKey();
+//    showMatches();
 
-    cv::Ptr<cv::DescriptorMatcher> matcher =  DescriptorMatcher::create(DescriptorMatcher::BRUTEFORCE_SL2);
-    matcher->knnMatch(descriptors1, descriptors2, knnMatchesVec, 2);
+//};
 
-    // filter matches
+//void cvFunctions::matchKey()
+//{
 
-    for (size_t i = 0; i < knnMatchesVec.size(); i++)
-    {
-        if(knnMatchesVec[i][0], ratioThresh * knnMatchesVec[i][1].distance)
-        {
-            goodMatches.push_back(knnMatchesVec[i][0]);
-        }
-    }
+//    cv::Ptr<cv::DescriptorMatcher> matcher =  DescriptorMatcher::create(DescriptorMatcher::BRUTEFORCE_SL2);
+//    matcher->knnMatch(descriptors1, descriptors2, knnMatchesVec, 2);
 
-    std::cout << " match number " << goodMatches.size() << std::endl;
+//    // filter matches
+
+//    for (size_t i = 0; i < knnMatchesVec.size(); i++)
+//    {
+//        if(knnMatchesVec[i][0], ratioThresh * knnMatchesVec[i][1].distance)
+//        {
+//            goodMatches.push_back(knnMatchesVec[i][0]);
+//        }
+//    }
+
+//    std::cout << " match number " << goodMatches.size() << std::endl;
     
-};
+//};
 
 
 
-void cvFunctions::showMatches()
-{
+//void cvFunctions::showMatches()
+//{
     
-    cv::drawMatches( temp1, keypoints1, temp2, keypoints2, goodMatches, imgMatches, Scalar::all(-1),
-    Scalar::all(-1), std::vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS);
-    cv::namedWindow("good matches", WINDOW_NORMAL);
-    cv::resizeWindow("good matches", 600, 600);
-    cv::imshow("good matches" , imgMatches);
+//    cv::drawMatches( temp1, keypoints1, temp2, keypoints2, goodMatches, imgMatches, Scalar::all(-1),
+//    Scalar::all(-1), std::vector<char>(), DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS);
+//    cv::namedWindow("good matches", WINDOW_NORMAL);
+//    cv::resizeWindow("good matches", 600, 600);
+//    cv::imshow("good matches" , imgMatches);
 
-    cv::waitKey();
-};
+//    cv::waitKey();
+//};
 
 
 
@@ -131,7 +131,7 @@ cv::Mat cvFunctions::backproj(cv::Mat img)
     for (int i = 0; i < bins; i++)
     {
         rectangle( histImg, Point( i*bin_w, h ), Point( (i+1)*bin_w, h - cvRound( hist.at<float>(i)*h/255.0 ) ),
-                   Scalar( 0, 0, 255 ), FILLED );
+                   Scalar( 0, 0, 255 ), -1 );
     }
 
     //debugging functions

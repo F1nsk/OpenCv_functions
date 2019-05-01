@@ -48,24 +48,13 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/student/workspace/OpenCv_functions
+CMAKE_SOURCE_DIR = /home/student/workspace/saliencyFineGrained
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/student/workspace/OpenCv_functions
+CMAKE_BINARY_DIR = /home/student/workspace/saliencyFineGrained/build
 
 #=============================================================================
 # Targets provided globally by CMake.
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
@@ -78,11 +67,22 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/workspace/OpenCv_functions/CMakeFiles /home/student/workspace/OpenCv_functions/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/workspace/saliencyFineGrained/build/CMakeFiles /home/student/workspace/saliencyFineGrained/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/workspace/OpenCv_functions/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/workspace/saliencyFineGrained/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,98 +111,71 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named opencvFunctions
+# Target rules for targets named saliencyFineGrained
 
 # Build rule for target.
-opencvFunctions: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 opencvFunctions
-.PHONY : opencvFunctions
+saliencyFineGrained: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 saliencyFineGrained
+.PHONY : saliencyFineGrained
 
 # fast build rule for target.
-opencvFunctions/fast:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/build
-.PHONY : opencvFunctions/fast
+saliencyFineGrained/fast:
+	$(MAKE) -f CMakeFiles/saliencyFineGrained.dir/build.make CMakeFiles/saliencyFineGrained.dir/build
+.PHONY : saliencyFineGrained/fast
 
-src/cvFunctions.o: src/cvFunctions.cpp.o
+main.o: main.cpp.o
 
-.PHONY : src/cvFunctions.o
-
-# target to build an object file
-src/cvFunctions.cpp.o:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.o
-.PHONY : src/cvFunctions.cpp.o
-
-src/cvFunctions.i: src/cvFunctions.cpp.i
-
-.PHONY : src/cvFunctions.i
-
-# target to preprocess a source file
-src/cvFunctions.cpp.i:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.i
-.PHONY : src/cvFunctions.cpp.i
-
-src/cvFunctions.s: src/cvFunctions.cpp.s
-
-.PHONY : src/cvFunctions.s
-
-# target to generate assembly for a file
-src/cvFunctions.cpp.s:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/cvFunctions.cpp.s
-.PHONY : src/cvFunctions.cpp.s
-
-src/hsvSeg.o: src/hsvSeg.cpp.o
-
-.PHONY : src/hsvSeg.o
+.PHONY : main.o
 
 # target to build an object file
-src/hsvSeg.cpp.o:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.o
-.PHONY : src/hsvSeg.cpp.o
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/saliencyFineGrained.dir/build.make CMakeFiles/saliencyFineGrained.dir/main.cpp.o
+.PHONY : main.cpp.o
 
-src/hsvSeg.i: src/hsvSeg.cpp.i
+main.i: main.cpp.i
 
-.PHONY : src/hsvSeg.i
+.PHONY : main.i
 
 # target to preprocess a source file
-src/hsvSeg.cpp.i:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.i
-.PHONY : src/hsvSeg.cpp.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/saliencyFineGrained.dir/build.make CMakeFiles/saliencyFineGrained.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-src/hsvSeg.s: src/hsvSeg.cpp.s
+main.s: main.cpp.s
 
-.PHONY : src/hsvSeg.s
+.PHONY : main.s
 
 # target to generate assembly for a file
-src/hsvSeg.cpp.s:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/hsvSeg.cpp.s
-.PHONY : src/hsvSeg.cpp.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/saliencyFineGrained.dir/build.make CMakeFiles/saliencyFineGrained.dir/main.cpp.s
+.PHONY : main.cpp.s
 
-src/main.o: src/main.cpp.o
+staticSaliencyFineGrained.o: staticSaliencyFineGrained.cpp.o
 
-.PHONY : src/main.o
+.PHONY : staticSaliencyFineGrained.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+staticSaliencyFineGrained.cpp.o:
+	$(MAKE) -f CMakeFiles/saliencyFineGrained.dir/build.make CMakeFiles/saliencyFineGrained.dir/staticSaliencyFineGrained.cpp.o
+.PHONY : staticSaliencyFineGrained.cpp.o
 
-src/main.i: src/main.cpp.i
+staticSaliencyFineGrained.i: staticSaliencyFineGrained.cpp.i
 
-.PHONY : src/main.i
+.PHONY : staticSaliencyFineGrained.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+staticSaliencyFineGrained.cpp.i:
+	$(MAKE) -f CMakeFiles/saliencyFineGrained.dir/build.make CMakeFiles/saliencyFineGrained.dir/staticSaliencyFineGrained.cpp.i
+.PHONY : staticSaliencyFineGrained.cpp.i
 
-src/main.s: src/main.cpp.s
+staticSaliencyFineGrained.s: staticSaliencyFineGrained.cpp.s
 
-.PHONY : src/main.s
+.PHONY : staticSaliencyFineGrained.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/opencvFunctions.dir/build.make CMakeFiles/opencvFunctions.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+staticSaliencyFineGrained.cpp.s:
+	$(MAKE) -f CMakeFiles/saliencyFineGrained.dir/build.make CMakeFiles/saliencyFineGrained.dir/staticSaliencyFineGrained.cpp.s
+.PHONY : staticSaliencyFineGrained.cpp.s
 
 # Help Target
 help:
@@ -210,18 +183,15 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... opencvFunctions"
-	@echo "... src/cvFunctions.o"
-	@echo "... src/cvFunctions.i"
-	@echo "... src/cvFunctions.s"
-	@echo "... src/hsvSeg.o"
-	@echo "... src/hsvSeg.i"
-	@echo "... src/hsvSeg.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... edit_cache"
+	@echo "... saliencyFineGrained"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... staticSaliencyFineGrained.o"
+	@echo "... staticSaliencyFineGrained.i"
+	@echo "... staticSaliencyFineGrained.s"
 .PHONY : help
 
 
